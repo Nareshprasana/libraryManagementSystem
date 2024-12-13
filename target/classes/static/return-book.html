@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System - Return Book</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Include Navbar -->
+<div w3-include-html="navbar.html"></div>
+
+<header>
+    <h1>Return a Book</h1>
+</header>
+
+<main>
+    <section>
+        <form id="returnForm">
+            <label for="borrowId">Borrow ID:</label>
+            <input type="number" id="borrowId" name="borrowId">
+
+            <button type="submit">Return</button>
+        </form>
+    </section>
+</main>
+
+<script src="script.js"></script>
+<script src="w3.js"></script>
+<script>
+    w3.includeHTML();
+</script>
+</body>
+</html>
